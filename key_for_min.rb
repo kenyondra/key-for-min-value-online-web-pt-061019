@@ -3,6 +3,6 @@
 
 def key_for_min_value(name_hash)
   return nil if name_hash.size == 0 
-  min_key
+  min_key, min_value
   name_hash.max_by {|k, v| 0-v}[0] 
 end
